@@ -1,0 +1,27 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "description": "This is the backend of task management application.",
+  "keywords": [
+    "task",
+    "manager",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Priyanshu Kumar Mishra",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "devServer": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1"
+  }
+}
