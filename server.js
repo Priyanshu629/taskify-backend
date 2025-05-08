@@ -16,7 +16,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000","https://taskify-web-app-five.vercel.app/"],
+    origin: ["http://localhost:3000","https://taskify-web-app-five.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
   })
